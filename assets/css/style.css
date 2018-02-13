@@ -1,8 +1,31 @@
-body {
-    background-color: aqua;
 
+div.container{
+    width: 960px;
 }
-
-#nav li {
+body {
+    background-color: #ffffff;
+}
+header {
+    padding: 20px;
+    background-color: #4aaaa5;
+}
+nav li {
     display: inline-block;
+    float: right;
+    margin: 5px;
+}
+#div-left {
+    float: left;
+    width: 650px;
+}
+img {
+    align: left;
+}
+#div-right {
+    float: right;
+    width: 270px;
+}
+img.floatLeft {
+    float: left;
+    margin: 5px;
 }
