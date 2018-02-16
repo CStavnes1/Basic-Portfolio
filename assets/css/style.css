@@ -2,17 +2,89 @@
 
 body {
     background-image: url("/Users/christopherstavnes/Desktop/Basic-Portfolio/assets/images/dust_scratches.png");
-    width: 960px;
+    width: 100%;
+    
 }
-#top {
+div {
+    width: 100%;
+    border-bottom: solid 1px #777777;
+    border-top: none;
     background-color: #ffffff;
-    width: auto;
+    
 }
-.head {
+
+/*<Main Boxes*/
+
+.wrap {
+    margin-left:20%;
+    width: 50%;
+    background color: #ffffff;
+}
+.head { 
     float: left;
+    width: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+    margin-right: 40%;
+    border-top: none;
+    padding-left: 10%;
+    background-color: #ffffff;
+}
+
+.nav {
+    float: left;
+    width: auto;
+    font-family: 'Georgia', Times, Times New Roman, serif;  
+    margin-top: 2%;
+    border: none;
+    background-color: #ffffff;
+}
+
+.box {
+    float: left;
+    width: 50%;
+    border: solid 1px #777777;
+    margin: 10px 20px 20px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    padding: 10px 15px 10px 10px;
+    
+}
+
+.sidebox {
+    float: left;
+    width: auto;
+    border: solid 1px #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    background-color: #ffffff;
+    margin-top: 10px;
+}
+
+
+.container {
+    float: left;
+    width: 50%;
+    background-color: none;
+
+}
+
+.projects {
+    float: left;
+    width: 50%;
+    background-color: #ffffff;
+    margin: 10px;
+    border: none;
+}
+
+
+
+#clear {
+    clear: both;
 }
 h1 {
     color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif; 
     background-color: #4aaaa5;
     padding: 10px;
  }
@@ -21,12 +93,7 @@ h2 {
     color: #4aaaa5;
     margin: 10px;
 }
-.nav {
-    float: left;
-    margin-bottom: 60px;
-    margin-left: 400px;
-    font-family: 'Georgia', Times, Times New Roman, serif;  
-}
+
 .nav li {
     display: inline-block;
     color: #777777;
@@ -37,29 +104,11 @@ h2 {
     border-right: 2px solid #777777;
     padding-right: 5px;
 }
-
-.head,.nav {
-    display: inline-block;
+p { 
+    line-height: 1.25em;
 }
 
-.box {
-    float: left;
-    width: 650px;
-    border: solid 1px #777777;
-    margin-right: 20px;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    background-color: #ffffff;
-}
 
-.sidebox {
-    float: left;
-    width: auto;
-    border: solid 1px #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
-    background-color: #ffffff;
-}
 
 .sidebox img {
     height: 50px;
@@ -98,6 +147,9 @@ form {
     height: 450px;
     margin: auto;
 }
+text {
+    width: auto;
+}
 .textinputone,.textinputtwo {
     width: 375px;
 }
@@ -113,20 +165,25 @@ form {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
 }
-.container {
-    width: 600px;;
-}
-.projects { 
-    background: #ffffff;
-    float: left;
-    height: 600px;
-    width: 650px;
-    padding: 10px;
-    margin-right: 20px;
-    border: solid 1px #777777;
-}
+
 .projectimg {
     height: 150px;
     width: 150px;
     margin: 20px;
 }
+
+
+
+
+
+/*.projects { 
+    background: #ffffff;
+    float: left;
+    height: 600px;
+    width: auto;
+    padding: 10px;
+    border: solid 1px #777777;
+}
+
+
+
